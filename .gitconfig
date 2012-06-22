@@ -3,18 +3,48 @@
 # when > 22/06/2012
 
 [color]
-    branch = always
-    diff = always
-    grep = always
-    interactive = always
-    log = always
-    status = always
     ui = always
 
 [core]
     editor = vi
 
+[github]
+    user = maurobaraldi
+
 [user]
    email = mauro.baraldi@gmail.com
    name = Mauro Baraldi
+
+[alias]
+    s = status
+    aa = add --all
+    aas = !git add --all && git status 
+    commit = commit -a -v
+    ci = commit
+    cim = commit -m
+    co = checkout
+    br = branch
+    nbr = checkout -b
+    p = pull
+    pp = !git pull && git push origin master
+    pm = push
+    pod = push origin development
+    pom = push origin master
+    stat = status
+    d = diff --word-diff
+    logtree = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%Creset' --abbrev-commit --date=relative
+    logfull = log --pretty=format:'%Cblue%h %Cred%cD %Creset%cn %Cgreen%s%Creset' --date-order
+    logfullg = log --pretty=format:'%Cblue%h %Cred%cD %Creset%cn %Cgreen%s%Creset' --date-order --graph
+    logchanges = log ORIG_HEAD.. --stat --no-merges
+    logrev  = log --reverse
+    logcount = !git log --pretty=oneline | wc -l
+    username = config --get user.name
+
+[sendemail]
+	smtpencryption = tls
+	smtpserver = smtp.gmail.com
+	smtpuser = mauro.baradli@gmail.com
+	smtppass = password
+	smtpserverport = 587
+	to = mauro.baraldi@nextsourcing.com.br
 
