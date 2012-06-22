@@ -11,7 +11,7 @@
     ui = auto
 
 [core]
-    editor = /usr/bin/vi
+    editor = vi
 
 [user]
    email = mauro.baraldi@gmail.com
