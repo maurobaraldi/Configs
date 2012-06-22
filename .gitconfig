@@ -3,10 +3,11 @@
 # when > 22/06/2012
 
 [color]
-    diff = auto
-    status = auto
     branch = auto
+    diff = auto
     interactive = auto
+    log = auto
+    status = auto
     ui = auto
 
 [core]
