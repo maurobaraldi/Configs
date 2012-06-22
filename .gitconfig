@@ -1,0 +1,18 @@
+# .gitconfig
+# who > mauro.baraldi@gmail.com
+# when > 22/06/2012
+
+[color]
+    diff = auto
+    status = auto
+    branch = auto
+    interactive = auto
+    ui = auto
+
+[core]
+    editor = /usr/bin/vi
+
+[user]
+   email = mauro.baraldi@gmail.com
+   name = Mauro Baraldi
+
