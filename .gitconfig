@@ -3,12 +3,12 @@
 # when > 22/06/2012
 
 [color]
-    branch = auto
-    diff = auto
-    interactive = auto
-    log = auto
-    status = auto
-    ui = auto
+    branch = true
+    diff = true
+    interactive = true
+    log = true
+    status = true
+    ui = true
 
 [core]
     editor = vi
