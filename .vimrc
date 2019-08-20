@@ -74,9 +74,6 @@ set nu
 set hidden
 
 set nowrap
-set tabstop=4
-set shiftwidth=4
-set softtabstop=4
 set tabpagemax=20
 set showtabline=4
 set autoindent
